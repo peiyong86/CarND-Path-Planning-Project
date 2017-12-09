@@ -216,7 +216,7 @@ bool if_lane_safe(int target_lane, double prev_size, double car_s, vector<vector
 				//ref_vel = 29.5;
 				if_safe = false;
 			}
-			if((check_car_s<car_s) && ((car_s - check_car_s)<15))
+			if((check_car_s<car_s) && ((car_s - check_car_s)<20))
 			{
 				if_safe = false;
 			}

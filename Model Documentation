@@ -1,0 +1,13 @@
+## Reflection
+(The code model for generating paths is described in detail.)
+Generally the submitted code follow the solution/suggestion from walk through video on udacity.
+1, use gradually increase/decrease speed method to prevent the jerk.
+2, check the distance between ego-car and other cars to prevent the collision.
+3, for lane change, there are 3 steps in this project.
+First, if there is a car too close in front of our car, we will try to make a lane change.
+Second, find all possible target lanes. Eg, if on lane 0, target lane is 1. If on lane 1, target lane is [0,2].
+Third, check if target lane is safe to change by check distance of cars on that lane.
+4, for trajectory generate, we use spline (same as walk through video). Which turns out to be very smooth.
+
+
+
